@@ -1,7 +1,4 @@
-import streamlit as st
-
-st.title("🎈 My new app")
-st.write(import streamlit as strl
+import streamlit as strl
 import math
 import requests
 import io
@@ -59,6 +56,3 @@ if url_input:
         strl.metric(label="🟦 מחסן חמצן רגיל (21% O₂)", value=f"{int(yrs_21)} שנים")
     with col2:
         strl.metric(label="🟩 מחסן מרודד חמצן (15% O₂)", value=f"{int(yrs_15)} שנים")
-)
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-
